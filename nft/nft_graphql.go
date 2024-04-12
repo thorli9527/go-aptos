@@ -3,7 +3,7 @@ package nft
 import (
 	"fmt"
 
-	"github.com/coming-chat/go-aptos/graphql"
+	"github.com/thorli9527/go-aptos/graphql"
 )
 
 const (

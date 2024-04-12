@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coming-chat/go-aptos/aptosclient"
-	txnBuilder "github.com/coming-chat/go-aptos/transaction_builder"
 	"github.com/stretchr/testify/require"
+	"github.com/thorli9527/go-aptos/aptosclient"
+	txnBuilder "github.com/thorli9527/go-aptos/transaction_builder"
 )
 
 const (

@@ -3,7 +3,7 @@ package nft
 import (
 	"encoding/hex"
 
-	txnBuilder "github.com/coming-chat/go-aptos/transaction_builder"
+	txnBuilder "github.com/thorli9527/go-aptos/transaction_builder"
 )
 
 var TOKEN_ABIS = []string{

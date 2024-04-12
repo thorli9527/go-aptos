@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/coming-chat/go-aptos/aptosaccount"
-	"github.com/coming-chat/go-aptos/aptosclient"
-	"github.com/coming-chat/go-aptos/aptostypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thorli9527/go-aptos/aptosaccount"
+	"github.com/thorli9527/go-aptos/aptosclient"
+	"github.com/thorli9527/go-aptos/aptostypes"
 )
 
 const (

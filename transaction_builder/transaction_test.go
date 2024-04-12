@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 )
 
 func TestTransactionArgumentSerilize(t *testing.T) {

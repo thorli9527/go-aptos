@@ -1,7 +1,7 @@
 package nft
 
 import (
-	"github.com/coming-chat/go-aptos/graphql"
+	"github.com/thorli9527/go-aptos/graphql"
 	"testing"
 )
 

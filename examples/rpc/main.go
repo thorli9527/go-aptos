@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/coming-chat/go-aptos/aptosclient"
-	"github.com/coming-chat/go-aptos/aptostypes"
+	"github.com/thorli9527/go-aptos/aptosclient"
+	"github.com/thorli9527/go-aptos/aptostypes"
 )
 
 const rpcUrl = "https://fullnode.devnet.aptoslabs.com"

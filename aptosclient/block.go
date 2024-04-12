@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/coming-chat/go-aptos/aptostypes"
+	"github.com/thorli9527/go-aptos/aptostypes"
 )
 
 func (c *RestClient) GetBlockByHeight(height string, with_transactions bool) (block *aptostypes.Block, err error) {

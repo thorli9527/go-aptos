@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/coming-chat/go-aptos/aptosaccount"
-	"github.com/coming-chat/go-aptos/aptostypes"
-	txBuilder "github.com/coming-chat/go-aptos/transaction_builder"
-	"github.com/coming-chat/lcs"
 	"github.com/stretchr/testify/require"
+	"github.com/thorli9527/go-aptos/aptosaccount"
+	"github.com/thorli9527/go-aptos/aptostypes"
+	txBuilder "github.com/thorli9527/go-aptos/transaction_builder"
+	"github.com/thorli9527/lcs"
 )
 
 const (

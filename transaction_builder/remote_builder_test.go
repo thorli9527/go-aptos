@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/coming-chat/go-aptos/aptosclient"
 	"github.com/stretchr/testify/require"
+	"github.com/thorli9527/go-aptos/aptosclient"
 )
 
 func TestTransactionBuilderRemoteABI(t *testing.T) {

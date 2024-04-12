@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coming-chat/go-aptos/aptosaccount"
-	"github.com/coming-chat/go-aptos/aptosclient"
-	"github.com/coming-chat/go-aptos/aptostypes"
-	txnBuilder "github.com/coming-chat/go-aptos/transaction_builder"
 	"github.com/stretchr/testify/require"
+	"github.com/thorli9527/go-aptos/aptosaccount"
+	"github.com/thorli9527/go-aptos/aptosclient"
+	"github.com/thorli9527/go-aptos/aptostypes"
+	txnBuilder "github.com/thorli9527/go-aptos/transaction_builder"
 )
 
 var nftBuilder, _ = NewNFTPayloadBuilder()

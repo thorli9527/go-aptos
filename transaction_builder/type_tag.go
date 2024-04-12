@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 )
 
 func init() {

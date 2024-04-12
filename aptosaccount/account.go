@@ -3,9 +3,9 @@ package aptosaccount
 import (
 	"crypto/ed25519"
 	"errors"
-
-	"github.com/coming-chat/go-aptos/crypto/derivation"
 	"github.com/tyler-smith/go-bip39"
+
+	"github.com/thorli9527/go-aptos/crypto/derivation"
 	"golang.org/x/crypto/sha3"
 )
 

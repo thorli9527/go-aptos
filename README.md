@@ -1,6 +1,6 @@
 # Aptos Golang SDK
 
-[![Documentation (master)](https://img.shields.io/badge/docs-master-59f)](https://github.com/coming-chat/wallet-SDK)
+[![Documentation (master)](https://img.shields.io/badge/docs-master-59f)](https://github.com/thorli9527/wallet-SDK)
 [![License](https://img.shields.io/badge/license-Apache-green.svg)](https://github.com/aptos-labs/aptos-core/blob/main/LICENSE)
 
 The Aptos Golang SDK for ComingChat.
@@ -9,7 +9,7 @@ We welcome other developers to participate in the development and testing of gol
 ## Install
 
 ```sh
-go get github.com/coming-chat/go-aptos
+go get github.com/thorli9527/go-aptos
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ go get github.com/coming-chat/go-aptos
 ### Account
 
 ```go
-import "github.com/coming-chat/go-aptos/aptosaccount"
+import "github.com/thorli9527/go-aptos/aptosaccount"
 
 // Import account with mnemonic
 account, err := aptosaccount.NewAccountWithMnemonic(mnemonic)
@@ -36,13 +36,13 @@ signedData := account.Sign(data, "")
 ```
 
 ### Transfer Aptos Coin (BCS)
-> NOTE: The implementation of bcs is based on the [lcs](https://github.com/coming-chat/lcs) library
+> NOTE: The implementation of bcs is based on the [lcs](https://github.com/thorli9527/lcs) library
 
 ```go
-import "github.com/coming-chat/go-aptos/aptosaccount"
-import "github.com/coming-chat/go-aptos/aptosclient"
-import "github.com/coming-chat/go-aptos/aptostypes"
-import txBuilder "github.com/coming-chat/go-aptos/transaction_builder"
+import "github.com/thorli9527/go-aptos/aptosaccount"
+import "github.com/thorli9527/go-aptos/aptosclient"
+import "github.com/thorli9527/go-aptos/aptostypes"
+import txBuilder "github.com/thorli9527/go-aptos/transaction_builder"
 
 account, err := NewAccountWithMnemonic(mnemonic)
 fromAddress := "0x" + hex.EncodeToString(account.AuthKey[:])
@@ -97,9 +97,9 @@ fmt.Printf("tx hash = %v\n", newTx.Hash)
 ### Transfer Aptos Coin (JSON)
 
 ```go
-import "github.com/coming-chat/go-aptos/aptosaccount"
-import "github.com/coming-chat/go-aptos/aptosclient"
-import "github.com/coming-chat/go-aptos/aptostypes"
+import "github.com/thorli9527/go-aptos/aptosaccount"
+import "github.com/thorli9527/go-aptos/aptosclient"
+import "github.com/thorli9527/go-aptos/aptostypes"
 
 account, err := NewAccountWithMnemonic(mnemonic)
 fromAddress := "0x" + hex.EncodeToString(account.AuthKey[:])

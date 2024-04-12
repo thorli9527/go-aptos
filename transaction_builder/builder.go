@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/coming-chat/go-aptos/aptostypes"
+	"github.com/thorli9527/go-aptos/aptostypes"
 )
 
 func (c *RestClient) GetAccount(address string) (res *aptostypes.AccountCoreData, err error) {

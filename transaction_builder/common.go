@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 )
 
 const (

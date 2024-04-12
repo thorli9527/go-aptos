@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 	"golang.org/x/crypto/sha3"
 )
 

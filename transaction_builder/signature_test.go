@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 )
 
 func TestMultiEd25519PublicKey(t *testing.T) {

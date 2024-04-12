@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/coming-chat/go-aptos/aptostypes"
+	"github.com/thorli9527/go-aptos/aptostypes"
 )
 
 func TestRestClient_GetBlockByHeight(t *testing.T) {

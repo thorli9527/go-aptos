@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coming-chat/lcs"
 	"github.com/stretchr/testify/assert"
+	"github.com/thorli9527/lcs"
 )
 
 func TestTypeTagParser_ParseTypeTag(t *testing.T) {

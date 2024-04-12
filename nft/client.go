@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/coming-chat/go-aptos/aptosclient"
-	"github.com/coming-chat/go-aptos/aptostypes"
-	txnBuilder "github.com/coming-chat/go-aptos/transaction_builder"
+	"github.com/thorli9527/go-aptos/aptosclient"
+	"github.com/thorli9527/go-aptos/aptostypes"
+	txnBuilder "github.com/thorli9527/go-aptos/transaction_builder"
 )
 
 type CollectionData struct {

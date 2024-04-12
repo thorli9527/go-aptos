@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/coming-chat/go-aptos/aptosaccount"
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/go-aptos/aptosaccount"
+	"github.com/thorli9527/lcs"
 )
 
 func init() {

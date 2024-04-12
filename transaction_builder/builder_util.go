@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coming-chat/lcs"
+	"github.com/thorli9527/lcs"
 )
 
 type Token struct {
